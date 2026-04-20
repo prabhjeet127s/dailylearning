@@ -10,5 +10,6 @@ export default async function Page() {
         <p key={post.id}>{post.title}</p>
       ))}
     </div>
+    
   )
 }
